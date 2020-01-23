@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleCV.css">
+    <title>Contact</title>
+</head>
+<body>
+
+        <div class="bloc3">
+                <div class="header">
+                    <p><img src="images/dominguezroxane.png" alt="Nom" /></p>
+                </div>
+                <div class="header">
+                    <p>
+                        <a href="HOBBY.html" target="_blank">HOBBY</a><br>
+                        <a href="VIDEO.html" target="_blank">VIDEO</a><br>
+                        <a href="CONTACT.html" target="_blank">CONTACT</a>
+                    </p>
+                </div>	
+                <div class="header">
+                        <p><img src="images/profil_roxane.png" height="300px" width="300px" alt="Photo de profil" title="Roxane le leprechaun" /></p>
+                    </div>
+            </div>
+            
+    <div class="formulaire">      
+        <form method="post" action="https://httpbin.org/post">
+            <p>
+                <label for="Nom">Votre nom :</label>
+                <input type="text" name="Nom" id="Nom" placeholder="Ex : Gandalf" size="30" maxlength="10"/>
+            </p>
+            <p>
+                    <input type="radio" name="genre" value="homme" id="homme" /> <label for="homme">Homme</label>
+                    <input type="radio" name="genre" value="femme" id="femme" /> <label for="femme">Femme</label> 
+                    <input type="radio" name="genre" value="leprechaun" id="leprechaun" /> <label for="leprechaun">Leprechaun</label>
+                    <input type="radio" name="genre" value="autre" id="autre" /> <label for="autre">Autre</label>
+            </p>
+            <p>
+                <label for="Demande">Votre demande concerne :</label>
+                <br>
+                <select name="Demande" id="Demande">
+                    <option value="pub">Le Pub</option>
+                    <option value="barbier">Le Barbier</option>
+                    <option value="jeux">Les Jeux</option>
+                    <option value="concours">Le Concours</option>
+                    <option value="autre">Autre demande</option>
+                </select>
+                <br>
+                <p>
+                    <label for="Message">Votre message :</label><br>
+                <textarea name="Message" id="Message" cols="45" rows="20">Comment on fait pour boire et se faire tailler la ière en même temps ?
+                </textarea>
+            </p>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Reset">
+    </div> 
+        </form> 
+</body>
+</html>
