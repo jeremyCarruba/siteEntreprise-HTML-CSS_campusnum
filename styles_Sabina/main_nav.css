@@ -1,0 +1,59 @@
+/* main > nav 
+-----------------------------------------------------------------------------------
+---------------------------- */
+
+.navigation_interne {
+	width: 70%;
+	max-width: 1000px;
+	min-width: 400px;
+    margin: auto;
+	height: 40px;
+	position: sticky;
+	top: 0;
+	margin-top: 0;
+	color: #F5F4F2;
+}
+
+@media (max-width: 400px) {
+    .navigation_interne {
+		width: 100%; 
+		min-width: 0;
+        margin: 0;  
+    }
+}
+
+.navigation_interne > ul {
+	display: flex;
+	justify-content: space-between;
+	height: inherit;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 2px solid #F5F4F2;
+	border-top: none;
+}
+
+.navigation_interne > ul > li {
+	height: inherit;
+	line-height: 40px;
+    flex: 1;
+    flex-grow: 1;
+	text-align: center;
+	background: linear-gradient(#211817	,  #372F2E);
+}
+
+.navigation_interne > ul > li:hover, .navigation_interne > ul > .page {
+	background: none;
+	background-color: #4D4645;
+}
+
+.navigation_interne > ul > li > a{
+	display: block;
+	height: 100%;
+}
+
+a:link, a:visited {
+	color: #F5F4F2;
+	text-decoration: none;
+}

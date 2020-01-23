@@ -1,0 +1,61 @@
+/*||Header*/
+
+.header-specific {
+    background-image: url(../images/pictures/brown4.jpg) ;
+    background-size: cover;
+   
+    display:flex;
+    padding: 5%;
+    text-align:center;
+}
+
+@media (max-width:899px) {
+    .header-specific {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #photo{
+        height: 200px;
+        width:200px;
+        margin:auto;
+    }
+}
+
+@media (min-width:900px) {
+    .header-specific {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    #photo{
+        height: 300px;
+        width:300px;
+    }
+}
+
+#photo{
+    border-radius: 50%;
+   
+    border:solid 2px #211817;
+}
+
+.header-text{
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    font-weight: bold;
+    color:  white;
+    min-height:10%;
+    width:auto;
+}
+
+#name-person{
+    font-size: 5vh;
+   margin-bottom: 0;
+   /*text-shadow: -1px 0 #a278b5, 0 1px #a278b5, 1px 0 #a278b5, 0 -2px #a278b5*/
+}
+
+#job-person {
+    font-size: 3vh;
+    margin-bottom: 0;
+}
+
