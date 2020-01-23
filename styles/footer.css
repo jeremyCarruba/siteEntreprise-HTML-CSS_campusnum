@@ -1,0 +1,52 @@
+.flex_footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  color:white;
+}
+.copyright {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color:white;
+}
+
+.copyright p img {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  height: 30px;
+}
+main+footer {
+  background-color: #211817 ;
+  color: white;
+  font-size: 1em;
+}
+
+
+
+@media screen and (max-width: 640px) {
+  .flex_footer {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+/*PITCH*/
+.video_mp4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3%;
+  width: 100%;
+}
+video {
+	max-width: 100%;
+	height: auto;
+}
+

@@ -1,0 +1,64 @@
+.mainstyle {
+  text-align: center;
+  background-color: #FAF6F0;
+}
+
+.btn:hover {
+  background-color: #635d5c;
+}
+
+.img-thumbnail {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #4d4645;
+}
+
+.texte-produit {
+  width: 90%;
+}
+
+.btn-outline-secondary {
+  padding: 0px;
+  max-width: 600px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.container .service p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-inline-start: 10px;
+  margin-inline-end: 5px;
+}
+
+.bloc_video_bio {
+  background-color: #635d5c;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #FAF6F0;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .bloc_video_bio {
+    padding-right: 15px;
+  }
+}
+
+.texte_bio {
+  display: flex;
+  align-items: center;
+  padding-bottom: ;
+  padding-right: 10px;
+  padding-left: 15px;
+}
+
+.titre_avis .border {
+  border-width: 2px !important;
+}
+
+.titre_avis {
+  margin-bottom: 10px;
+}
