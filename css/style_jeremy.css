@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: "titre1";
+    src: url(../media/Polices/Hero-Corp_Police.ttf);
+}
+
+@font-face {
+    font-family: "sous_titre";
+    src: url(../media/Polices/sous_titre.ttf)
+}
+
+@font-face {
+    font-family: "texte";
+    src: url(../media/Polices/Navbar_text.ttf)
+}
+
+h1
+{
+    font-family: "titre1", Arial, Impact;
+    font-size: 72px;
+    margin: auto;
+}
+
+h2
+{
+    font-family: "sous_titre", Arial, Impact;
+    font-size: 48px; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+header{
+
+}
+
+.cover
+{
+    background-image: url(../media/Photos/Banniere_CV.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    z-index: 1;
+    position: relative;
+
+}
+
+.contact
+{
+    display: flex;
+    align-items: flex-end;
+    font-family: "sous_titre", arial, impact;
+    font-size: 42px;
+    margin-right:10%;
+    margin-left:10%;
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+}
+
+.presentation
+{
+    width: 75%;
+}
+
+.contenu
+{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#box_cv
+{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.box
+{
+    width: 29%;
+    font-family: "texte";
+    background-color: #f0f0f0;
+    margin: 5px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 1px 1px 1px grey;
+}
+
+table, tr, td
+{
+    border-width:1px;
+    border-style: solid;
+    background-color: white;
+}
